@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.idea/
+TryQt5.iml
+
 # C extensions
 *.so
 
