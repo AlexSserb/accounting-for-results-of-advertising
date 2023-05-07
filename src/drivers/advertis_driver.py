@@ -202,6 +202,7 @@ class AdvertisDriver:
                             (sites[randint(0, 8)], datetime.addSecs(randint(0, 15000)).toString(DATETIME_FORMAT),
                              banner_id))
             date = date.addDays(1)
+        self._con.commit()
         cur.close()
 
     # endregion
