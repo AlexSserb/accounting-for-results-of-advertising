@@ -27,6 +27,11 @@ The user of the program can:
 * view statistics on banner impressions for the selected date or for the entire time
 * view the forecast of impressions for each banner
 
+Each Internet banner ad is valid for a certain period of time (from start date to end date). For each banner, its shows on the sites are taken into account. The minimum number of shows is the number of shows that must be achieved according to the terms of the agreement. The maximum number of shows - the limit of shows per day for a particular banner. Ideally, the number of impressions for each banner on each day of action should be more than the minimum and less than the maximum number of impressions.
+
+This program allows you to analyze the performance of the minimum number of shows for each advertising Internet banner.
+Each banner show is counted as a record of two components: the date and time the banner was shown, and the site on which the banner was shown.
+
 <a name="technologies"></a>
 ## Technologies
 * Python 3.10
