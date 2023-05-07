@@ -56,7 +56,7 @@ pip install pyqtgraphics
 ### Program installation 
 1. Clone the repository:
 ```commandline
-git clone ....
+git clone https://github.com/AlexSserb/accounting-for-results-of-advertising.git
 ```
 2. Install dependencies:
 ```commandline
