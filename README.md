@@ -5,8 +5,6 @@
 * [Technologies](#technologies)
 * [Tools](#tools)
 * [Installation](#installation)
-  * [Program dependencies](#program-dependencies)
-  * [Program installation](#program-installation)
 * [Features](#features)
   * [Banners overview](#banners-overview)
   * [Shows overview](#shows-overview)
@@ -49,27 +47,23 @@ Each banner show is counted as a record of two components: the date and time the
 
 <a name="installation"></a>
 ## Installation
-<a name="program-dependencies"></a>
-### Program dependencies
-To start the project, run the commands
-```commandline
-pip install pyqt5
-pip install pyqtgraphics
-```
-
-<a name="program-installation"></a>
-### Program installation 
 1. Clone the repository:
 ```commandline
 git clone https://github.com/AlexSserb/accounting-for-results-of-advertising.git
 ```
-2. Install dependencies:
+2. Create and activate virtual environment:
 ```commandline
-pip install pyqt5
-pip install pyqtgraph
+cd accounting-for-results-of-advertising
+python -m venv venv 
+venv\\Scripts\\activate
 ```
-3. Run the application:
+3. Install requirements:
 ```commandline
+pip install -r requirements.txt 
+```
+4. Run the application:
+```commandline
+cd src
 python main.py
 ```
 
