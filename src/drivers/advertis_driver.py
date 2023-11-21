@@ -190,8 +190,8 @@ class AdvertisDriver:
     # Generation random shows for one banner
     def _gen_rand_showings_for_banner(self, banner: BannerShortData, banner_id):
         cur = self._con.cursor()
-        sites = ['Cucumber.com', 'WeeeWeee.com', 'Ooooo.com', 'qwerty.com',
-                 'Kva.com', 'la.com', 'Ggg.com', 'Jojo.com', 'Robot.com']
+        sites = ['website1.com', 'website2.com', 'website3.com', 'website4.com',
+                 'website5.com', 'website6.com', 'website7.com', 'website8.com', 'website9.com']
         date = banner.date_start
         last_date = QDate().currentDate()
         while date.daysTo(last_date) > 0:
